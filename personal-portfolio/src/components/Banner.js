@@ -55,7 +55,7 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <span className="tagline">Welcome to my Portfolio</span>
+                <span className="tagline">Greetings</span>
                 <h1>{`Hi! I'm Jonathan`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Front-End Developer", "Computer Science Student", "Salesman Turned Programmer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Welcome to my portfolio website! I am a passionate front-end developer with a keen eye for design and an unwavering commitment to crafting captivating user experiences. With a solid foundation in HTML, CSS, and JavaScript, I specialize in creating dynamic and interactive websites that seamlessly blend aesthetics with functionality. Moreover, I have honed my expertise in front-end libraries, notably React, utilizing its immense power to construct applications that are both scalable and easily maintainable.</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
