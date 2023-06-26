@@ -352,7 +352,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .item {
   background: linear-gradient(90.21deg, #EA906C -5.91%, #EB455F 111.58%);
-  border-radius: 15%;
+  border-radius: 10%;
+  
 }
 
 /************ Projects Css ************/
