@@ -16,7 +16,7 @@ const contactEmail = nodemailer.createTransport({
   service: 'gmail',
   auth: {
     user: "mass3ffectai@gmail.com",
-    pass: "HARVARD7282baka$@-("
+    pass: "qztiklfuedhswodq"
   },
 });
 
@@ -27,6 +27,7 @@ contactEmail.verify((error) => {
     console.log("Ready to Send");
   }
 });
+//not working yet -- see if its due to 2 factor authentication
 
 router.post("/contact", (req, res) => {
   const name = req.body.firstName + req.body.lastName;
