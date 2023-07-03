@@ -20,8 +20,8 @@ app.get("/api", (req, res) => {
 const contactEmail = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: 'mass3ffectai@gmail.com',
-    pass: 'begvgqblmknunddl'
+    user: process.env.EMAIL_ADDRESS,
+    pass: process.env.EMAIL_PASS
   },
 });
 
