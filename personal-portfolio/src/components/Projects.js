@@ -38,22 +38,22 @@ export const Projects = () => {
     {
       title: "HTML Accessibility Documentation",
       description: "Easy to follow HTML accessibility guide.",
-      demoLink: "https://github.com/",
-      repoLink: "https://github.com",
+      demoLink: "https://retr0verse.github.io/HTML-Accessibility/",
+      repoLink: "https://github.com/Retr0verse/HTML-Accessibility/",
       imgUrl: projImg2,
     },
     {
       title: "Calculator",
       description: "Interactive JavaScript calculator for precision.",
-      demoLink: "https://github.com/",
-      repoLink: "https://github.com",
+      demoLink: "https://retr0verse.github.io/calculator/",
+      repoLink: "https://github.com/Retr0verse/calculator/",
       imgUrl: projImg6,
     },
     {
       title: "Opposite Etch-a-Sketch",
       description: "Unleash creativity with opposite Etch-a-Sketch.",
-      demoLink: "https://github.com/",
-      repoLink: "https://github.com",
+      demoLink: "https://retr0verse.github.io/Etch-a-Sketch/",
+      repoLink: "https://github.com/Retr0verse/Etch-a-Sketch/",
       imgUrl: projImg8,
     },
   ];
