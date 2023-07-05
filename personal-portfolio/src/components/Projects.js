@@ -10,8 +10,8 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "CV Application",
+      description: "React CV Application",
       imgUrl: projImg1,
     },
     {
