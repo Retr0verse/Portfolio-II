@@ -10,33 +10,33 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "CV Application",
-      description: "React CV Application",
+      title: "Resume Application",
+      description: "Modern, interactive React CV application.",
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Car Club Landing Page",
+      description: "Rev up with our car club.",
       imgUrl: projImg2,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Current Portfolio",
+      description: "Discover my artsy space-themed React portfolio.",
       imgUrl: projImg3,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "First Portfolio",
+      description: "Dynamic HTML/CSS portfolio showcase.",
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Calculator",
+      description: "Interactive JavaScript calculator for precision.",
       imgUrl: projImg2,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Opposite Etch-a-Sketch",
+      description: "Unleash creativity with opposite Etch-a-Sketch.",
       imgUrl: projImg3,
     },
   ];
