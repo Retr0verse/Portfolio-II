@@ -25,9 +25,9 @@ export const Projects = () => {
       imgUrl: projImg3,
     },
     {
-      title: "First Portfolio",
-      description: "Dynamic HTML/CSS portfolio showcase.",
-      imgUrl: projImg1,
+      title: "HTML Accessibility Documentation",
+      description: "Easy to follow HTML accessibility guide.",
+      imgUrl: projImg2,
     },
     {
       title: "Calculator",
