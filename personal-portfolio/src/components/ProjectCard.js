@@ -9,9 +9,9 @@ export const ProjectCard = ({ title, description, imgUrl, demoLink, repoLink }) 
           <h4>{title}</h4>
           <span>{description}</span>
           <br />
-          <a href="demoLink">Live Demo</a>
+          <a href={demoLink}>Live Demo</a>
           <br />
-          <a href="repoLink">Github Repo</a>
+          <a href={repoLink}>Github Repo</a>
         </div>
       </div>
     </Col>

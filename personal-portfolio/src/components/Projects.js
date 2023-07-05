@@ -17,7 +17,7 @@ export const Projects = () => {
     {
       title: "Resume Application",
       description: "Modern, interactive React CV application.",
-      demolink: `https://github.com/`,
+      demolink: "https://github.com/",
       imgUrl: projImg4,
     },
     {
