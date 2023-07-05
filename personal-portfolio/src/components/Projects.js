@@ -3,6 +3,10 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
+import projImg4 from "../assets/img/project-img4.png";
+import projImg5 from "../assets/img/project-img5.png";
+import projImg6 from "../assets/img/project-img6.png";
+import projImg7 from "../assets/img/project-img7.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -12,17 +16,17 @@ export const Projects = () => {
     {
       title: "Resume Application",
       description: "Modern, interactive React CV application.",
-      imgUrl: projImg1,
+      imgUrl: projImg4,
     },
     {
       title: "Car Club Landing Page",
       description: "Rev up with our car club.",
-      imgUrl: projImg2,
+      imgUrl: projImg5,
     },
     {
       title: "Current Portfolio",
       description: "Discover my artsy space-themed React portfolio.",
-      imgUrl: projImg3,
+      imgUrl: projImg7,
     },
     {
       title: "HTML Accessibility Documentation",
@@ -32,12 +36,12 @@ export const Projects = () => {
     {
       title: "Calculator",
       description: "Interactive JavaScript calculator for precision.",
-      imgUrl: projImg2,
+      imgUrl: projImg6,
     },
     {
       title: "Opposite Etch-a-Sketch",
       description: "Unleash creativity with opposite Etch-a-Sketch.",
-      imgUrl: projImg3,
+      imgUrl: projImg8,
     },
   ];
 
