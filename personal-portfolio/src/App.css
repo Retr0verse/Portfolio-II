@@ -640,5 +640,5 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .connectLink {
-  text-decoration: none;
-}
+  color: inherit;
+  text-decoration: inherit;}
