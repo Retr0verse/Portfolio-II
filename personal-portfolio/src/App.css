@@ -642,3 +642,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .connectLink {
   color: inherit;
   text-decoration: inherit;}
+
+  .elevator {
+    background-color: black;
+  }
