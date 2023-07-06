@@ -31,7 +31,7 @@ export const Projects = () => {
     {
       title: "Current Portfolio",
       description: "Discover my artsy space-themed React portfolio.",
-      demoLink: "https://retr0verse.github.io/Portfolio-II/",
+      demoLink: "https://portfolio-ii-contact-form.onrender.com/",
       repoLink: "https://github.com/Retr0verse/Portfolio-II/",
       imgUrl: projImg7,
     },
