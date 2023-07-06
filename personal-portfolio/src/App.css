@@ -644,5 +644,5 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-decoration: inherit;}
 
   .elevator {
-    background-color: black;
+    background-color: rgba(0,0,0, 0.5);
   }
