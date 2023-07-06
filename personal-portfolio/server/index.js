@@ -10,7 +10,9 @@ const port = process.env.PORT || 10000;
 const app = express();
 
 app.use(express.static(path.resolve(__dirname, '../build')));
-app.use(cors())
+app.use(cors({
+  origin: 'https://portfolio-ii-contact-form.onrender.com'
+}));
 app.use(bodyParser.json());
 
 app.get("/api", (req, res) => {
