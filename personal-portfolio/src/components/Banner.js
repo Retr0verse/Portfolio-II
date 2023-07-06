@@ -4,6 +4,10 @@ import headerImg from "../assets/img/header-img.svg";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import { HashLink } from 'react-router-hash-link';
+import {
+  BrowserRouter as Router
+} from "react-router-dom";
 
 
 export const Banner = () => {
@@ -59,9 +63,9 @@ export const Banner = () => {
                 <span className="tagline">Greetings</span>
                 <h1>{`Hi! I'm Jonathan`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Front-End Developer", "Computer Science Student", "Salesman Turned Programmer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Welcome to my portfolio! I am a front-end developer with a unique background as a former salesman, bringing a fresh perspective to web development. Leveraging my strong communication and persuasion skills, I combine my passion for technology with an intuitive understanding of user needs to create visually appealing and user-friendly websites. With expertise in HTML, CSS, JavaScript, and front-end frameworks like React, I seamlessly blend my sales experience with my technical abilities to deliver captivating digital experiences that drive engagement and conversions.</p>
-                  <HashLink to='#connect'>
+               <Router>   <HashLink to='#connect'>
           <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
-                  </HashLink>
+                  </HashLink></Router>
 
               </div>}
             </TrackVisibility>
