@@ -5,7 +5,7 @@ const nodemailer = require("nodemailer");
 const bodyParser = require('body-parser');
 require('dotenv').config()
 
-const PORT = process.env.PORT || 10000;
+const port = process.env.PORT || 10000;
 
 const app = express();
 
@@ -61,6 +61,6 @@ app.get('*', (req, res) => {
 });
 
 // Showing that the server is up and running
-app.listen(PORT, () => {
-    console.log(`Server is online on port: ${PORT}`)
+app.listen(port, () => {
+    console.log(`Server is online on port: ${port}`)
   })
