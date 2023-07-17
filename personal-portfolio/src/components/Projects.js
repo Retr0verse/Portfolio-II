@@ -22,7 +22,7 @@ export const Projects = () => {
       imgUrl: projImg4,
     },
     {
-      title: "Car Club Landing Page",
+      title: "Car Club Site",
       description: "(Desktop)",
       demoLink: "https://retr0verse.github.io/Landing-Page/",
       repoLink: "https://github.com/Retr0verse/Landing-Page/",
@@ -36,7 +36,7 @@ export const Projects = () => {
       imgUrl: projImg7,
     },
     {
-      title: "HTML Accessibility Documentation",
+      title: "HTML Accessibility",
       description: "(Fully responsive)",
       demoLink: "https://retr0verse.github.io/HTML-Accessibility/",
       repoLink: "https://github.com/Retr0verse/HTML-Accessibility/",
@@ -50,7 +50,7 @@ export const Projects = () => {
       imgUrl: projImg6,
     },
     {
-      title: "Opposite Etch-a-Sketch",
+      title: "Etch-a-Sketch",
       description:"(Desktop)",
       demoLink: "https://retr0verse.github.io/Etch-a-Sketch/",
       repoLink: "https://github.com/Retr0verse/Etch-a-Sketch/",
