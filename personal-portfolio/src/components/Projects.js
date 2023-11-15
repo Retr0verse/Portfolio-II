@@ -22,10 +22,10 @@ export const Projects = () => {
       imgUrl: projImg4,
     },
     {
-      title: "Car Club Site",
+      title: "E-Commerce Site",
       description: "(Desktop)",
-      demoLink: "https://retr0verse.github.io/Landing-Page/",
-      repoLink: "https://github.com/Retr0verse/Landing-Page/",
+      demoLink: "https://retr0verse.github.io/e-commerce-app/",
+      repoLink: "https://github.com/Retr0verse/e-commerce-app/",
       imgUrl: projImg5,
     },
     {
